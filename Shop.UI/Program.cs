@@ -51,7 +51,6 @@ namespace Shop.UI
           
             }
 
-            Console.WriteLine("This is entity");
 
         }
     }
