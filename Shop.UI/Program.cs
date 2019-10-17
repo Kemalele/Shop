@@ -14,6 +14,7 @@ using Shop.DataAccess;
 using Shop.Domain;
 using System.IO;
 using System.Linq;
+using System;
 
 namespace Shop.UI
 {
@@ -50,6 +51,7 @@ namespace Shop.UI
           
             }
 
+            Console.WriteLine("This is entity");
 
         }
     }

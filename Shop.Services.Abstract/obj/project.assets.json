@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
+      "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
       "projectName": "Shop.Services.Abstract",
-      "projectPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
+      "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
       "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Services.Abstract\\obj\\",
+      "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",

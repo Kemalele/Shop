@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {}
+    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
+    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
         "projectName": "Shop.DataAccess",
-        "projectPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
+        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
         "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Desktop\\Shop\\Shop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
