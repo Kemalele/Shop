@@ -1,0 +1,16 @@
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.deps.json
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.pdb
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.csprojAssemblyReference.cache
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfo.cs
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\СкиданО\source\repos\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.pdb
+C:\Users\адилнур\Documents\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.deps.json
+C:\Users\адилнур\Documents\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\адилнур\Documents\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.pdb
+C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.csprojAssemblyReference.cache
+C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfo.cs
+C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.pdb
