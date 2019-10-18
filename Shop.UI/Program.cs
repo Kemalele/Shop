@@ -12,6 +12,7 @@
 using Microsoft.Extensions.Configuration;
 using Shop.DataAccess;
 using Shop.Domain;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -40,15 +41,75 @@ namespace Shop.UI
                 ImagePath = "C:/data"
             };
 
-            using(var context=new ShopContext(connectionString))
+            /*
+            using (var context = new ShopContext(connectionString))
             {
                 context.Categories.Add(category);
                 var result = context.Categories.ToList();
-             
                 context.Remove(category);
+
+                var quriedCategories = context
+                     .Categories
+                     .Where(x => x.CreationDate.Date < new System.DateTime(2017, 10, 5).Date);
+
+                var funnyResult = quriedCategories.Select(x => new
+                {
+                    Id = x.Id,
+                    StartDate = x.CreationDate,
+                    FunnyName = "Funny " + x.Name
+                });
+
+                var finalResult = funnyResult.ToList();
+
                 context.SaveChanges();
-          
             }
+            */
+
+            //// Testing Pagination
+            
+
+            var categories = new List<Category>();
+            categories.Add(new Category
+            {
+                Name = "Book",
+                ImagePath = "123"
+            });
+
+            categories.Add(new Category
+            {
+                Name = "Bycicle",
+                ImagePath = "123"
+            });
+
+            categories.Add(new Category
+            {
+                Name = "Car",
+                ImagePath = "123"
+            });
+
+            categories.Add(new Category
+            {
+                Name = "Boots",
+                ImagePath = "123"
+            });
+
+            categories.Add(new Category
+            {
+                Name = "Keys",
+                ImagePath = "123"
+            });
+
+            var pagination = new Pagination<Category>(categories);
+            int number = 2;
+
+            for(int i = 0; i < categories.Count / 2; i++)
+            {
+                pagination.Take(number);
+                pagination.
+            }
+            
+
+
 
 
         }
