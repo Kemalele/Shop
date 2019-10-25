@@ -1393,6 +1393,8 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "BCrypt.Net-Core": "1.6.0",
+          "Shop.DataAccess": "1.0.0",
+          "Shop.Domain": "1.0.0",
           "Shop.Services.Abstract": "1.0.0"
         },
         "compile": {

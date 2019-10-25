@@ -205,6 +205,12 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj"
+              },
+              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              },
               "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj": {
                 "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj"
               }
