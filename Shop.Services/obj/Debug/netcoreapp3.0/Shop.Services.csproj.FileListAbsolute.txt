@@ -2,3 +2,14 @@ C:\Users\СкиданО\source\repos\Shop\Shop.Services\bin\Debug\netcoreapp3.0\
 C:\Users\СкиданО\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.csprojAssemblyReference.cache
 C:\Users\СкиданО\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfoInputs.cache
 C:\Users\СкиданО\source\repos\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfo.cs
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Services.deps.json
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Services.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Services.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Services.Abstract.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Services.Abstract.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.csprojAssemblyReference.cache
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfoInputs.cache
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.AssemblyInfo.cs
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.csproj.CopyComplete
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.pdb

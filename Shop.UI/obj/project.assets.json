@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "BCrypt.Net-Core/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1378,10 +1387,57 @@
         "runtime": {
           "bin/placeholder/Shop.Domain.dll": {}
         }
+      },
+      "Shop.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "BCrypt.Net-Core": "1.6.0",
+          "Shop.Services.Abstract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shop.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Services.dll": {}
+        }
+      },
+      "Shop.Services.Abstract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Shop.Services.Abstract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Services.Abstract.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "BCrypt.Net-Core/1.6.0": {
+      "sha512": "hsKiHGjrnlDW05MzuzzlD9gNP8YOW2KbZ+FbvISrilsKJJ76tXKhWey6psZX5sd7DczNpSU2U6ldjPoblk8BLw==",
+      "type": "package",
+      "path": "bcrypt.net-core/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-core.1.6.0.nupkg.sha512",
+        "bcrypt.net-core.nuspec",
+        "lib/net40/BCrypt.Net-Core.dll",
+        "lib/net40/BCrypt.Net-Core.pdb",
+        "lib/net45/BCrypt.Net-Core.dll",
+        "lib/net45/BCrypt.Net-Core.pdb",
+        "lib/net451/BCrypt.Net-Core.dll",
+        "lib/net451/BCrypt.Net-Core.pdb",
+        "lib/net452/BCrypt.Net-Core.dll",
+        "lib/net452/BCrypt.Net-Core.pdb",
+        "lib/netstandard1.3/BCrypt.Net-Core.dll",
+        "lib/netstandard1.3/BCrypt.Net-Core.pdb",
+        "lib/netstandard2.0/BCrypt.Net-Core.dll",
+        "lib/netstandard2.0/BCrypt.Net-Core.pdb"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -5203,6 +5259,16 @@
       "type": "project",
       "path": "../Shop.Domain/Shop.Domain.csproj",
       "msbuildProject": "../Shop.Domain/Shop.Domain.csproj"
+    },
+    "Shop.Services/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Services/Shop.Services.csproj",
+      "msbuildProject": "../Shop.Services/Shop.Services.csproj"
+    },
+    "Shop.Services.Abstract/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Services.Abstract/Shop.Services.Abstract.csproj",
+      "msbuildProject": "../Shop.Services.Abstract/Shop.Services.Abstract.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5211,7 +5277,9 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 3.0.0",
       "Microsoft.Extensions.Configuration.Json >= 3.0.0",
       "Shop.DataAccess >= 1.0.0",
-      "Shop.Domain >= 1.0.0"
+      "Shop.Domain >= 1.0.0",
+      "Shop.Services >= 1.0.0",
+      "Shop.Services.Abstract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5245,6 +5313,12 @@
             },
             "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
               "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+            },
+            "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj": {
+              "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj"
+            },
+            "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj": {
+              "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj"
             }
           }
         }

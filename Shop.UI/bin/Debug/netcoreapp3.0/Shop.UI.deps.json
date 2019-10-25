@@ -12,10 +12,20 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "3.0.0",
           "Microsoft.Extensions.Configuration.Json": "3.0.0",
           "Shop.DataAccess": "1.0.0",
-          "Shop.Domain": "1.0.0"
+          "Shop.Domain": "1.0.0",
+          "Shop.Services": "1.0.0",
+          "Shop.Services.Abstract": "1.0.0"
         },
         "runtime": {
           "Shop.UI.dll": {}
+        }
+      },
+      "BCrypt.Net-Core/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -78,6 +88,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.0.0": {},
+      "Microsoft.EntityFrameworkCore.InMemory/3.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46310"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.0.0"
@@ -934,6 +955,7 @@
       "Shop.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
           "Shop.Domain": "1.0.0",
           "System.Configuration.ConfigurationManager": "4.6.0"
@@ -946,6 +968,20 @@
         "runtime": {
           "Shop.Domain.dll": {}
         }
+      },
+      "Shop.Services/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Core": "1.6.0",
+          "Shop.Services.Abstract": "1.0.0"
+        },
+        "runtime": {
+          "Shop.Services.dll": {}
+        }
+      },
+      "Shop.Services.Abstract/1.0.0": {
+        "runtime": {
+          "Shop.Services.Abstract.dll": {}
+        }
       }
     }
   },
@@ -954,6 +990,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net-Core/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsKiHGjrnlDW05MzuzzlD9gNP8YOW2KbZ+FbvISrilsKJJ76tXKhWey6psZX5sd7DczNpSU2U6ldjPoblk8BLw==",
+      "path": "bcrypt.net-core/1.6.0",
+      "hashPath": "bcrypt.net-core.1.6.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -989,6 +1032,13 @@
       "sha512": "sha512-V62p0CDlBkQVjCWUhwr22M3gLk5xJOmnzWbLIZHgVmhvb4UF3oMu1y+96XXXHozM7KNUbzH5jlN18vJW01TH/g==",
       "path": "microsoft.entityframeworkcore.analyzers/3.0.0",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZaZ2Eh4fVCxfaObSjt1RN9FCjqIduirDXeqYD1mlzqQDHswKCZacGxV0aQ6LDFvLBj4/LvOq9fjQ1hzcUPBoQ==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.0.0",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/3.0.0": {
       "type": "package",
@@ -1605,6 +1655,16 @@
       "sha512": ""
     },
     "Shop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shop.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shop.Services.Abstract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

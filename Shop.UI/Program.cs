@@ -15,6 +15,9 @@ using Shop.Domain;
 using System.IO;
 using System.Linq;
 using System;
+using Shop.Services;
+using static System.Console;
+using static System.Convert;
 
 namespace Shop.UI
 {
@@ -22,36 +25,29 @@ namespace Shop.UI
     {
         static void Main(string[] args)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", false, true);
-
-            IConfigurationRoot configurationRoot = builder.Build();
-
-            string providerName = configurationRoot.GetSection("AppConfig")
-                                 .GetChildren()
-                                 .Single()
-                                 .Value;
-
-            string connectionString = configurationRoot.GetConnectionString("DebugConnectionString");
-
-            Category category = new Category
+            while (true)
             {
-                Name = "Бытовая техника",
-                ImagePath = "C:/data"
-            };
+                int chosenMenu;
+                var registrationService = new RegistrationService();
+                Clear();
+                WriteLine("1.Войти");
+                WriteLine("2.Регистрация");
+                chosenMenu = ToInt32(ReadLine());
 
-            using(var context=new ShopContext(connectionString))
-            {
-                context.Categories.Add(category);
-                var result = context.Categories.ToList();
-             
-                context.Remove(category);
-                context.SaveChanges();
-          
+                switch (chosenMenu)
+                {
+                    case 1:
+                        
+                        break;
+
+                    case 2:
+
+                        registrationService.Register();
+                        break;
+
+                }
+
             }
-
-
         }
     }
 }

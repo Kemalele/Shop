@@ -14,3 +14,11 @@ C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.
 C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfo.cs
 C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.dll
 C:\Users\адилнур\Documents\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.deps.json
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\bin\Debug\netcoreapp3.0\Shop.Domain.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.csprojAssemblyReference.cache
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.AssemblyInfo.cs
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Domain\obj\Debug\netcoreapp3.0\Shop.Domain.pdb
