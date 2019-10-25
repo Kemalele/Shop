@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using static System.Console;
+using Shop.Domain;
+using Shop.DataAccess;
 
 namespace Shop.Services
 {
@@ -17,10 +19,21 @@ namespace Shop.Services
             WriteLine("Введите e-mail: ");
             email = ReadLine() as string;
 
-            WriteLine("Введите пароль");
+            WriteLine("Введите пароль: ");
             password = ReadLine() as string;
 
-            Authenicate(email);
+            WriteLine("Введите номер телефона: ");
+            phoneNumber = ReadLine() as string;
+
+            WriteLine("Введите домашний адресс: ");
+            address = ReadLine() as string;
+
+            if (Authenicate(email))
+            {
+                var User = EntityBuilder.CreateUser(phoneNumber, email, address, password);
+                var dbController = EntityBuilder.CreateDbController();
+                dbController.Insert(User);
+            }
         }
 
         private bool Authenicate(string emailTo)
@@ -42,10 +55,15 @@ namespace Shop.Services
             WriteLine("Введите полученный код:");
             enteredCode = ReadLine() as string;
 
-            if (string.Compare(generatedCode, enteredCode).Equals(1))
+            if (generatedCode.Equals(enteredCode))
+            {
                 return true;
-
-            else return false;
+            }
+            else
+            {
+                return false;
+            }
         }
+
     }
 }

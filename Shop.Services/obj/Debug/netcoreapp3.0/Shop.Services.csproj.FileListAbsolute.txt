@@ -13,3 +13,7 @@ C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\n
 C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.csproj.CopyComplete
 C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.dll
 C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\obj\Debug\netcoreapp3.0\Shop.Services.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.DataAccess.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Domain.dll
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.DataAccess.pdb
+C:\Users\БайрамовК\Source\Repos\Kemalele\Shop\Shop.Services\bin\Debug\netcoreapp3.0\Shop.Domain.pdb
