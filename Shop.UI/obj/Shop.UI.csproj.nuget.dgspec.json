@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.UI\\Shop.UI.csproj": {}
+    "/Users/kemalele/Projects/ShopProject/Shop.UI/Shop.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj",
         "projectName": "Shop.DataAccess",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj"
               }
             }
           }
@@ -54,6 +55,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[4.6.0, )"
@@ -74,28 +79,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,28 +132,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj",
         "projectName": "Shop.Services.Abstract",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -178,41 +185,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.Services/Shop.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.Services/Shop.Services.csproj",
         "projectName": "Shop.Services",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services/Shop.Services.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.Services/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj"
               },
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj"
               },
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj"
               }
             }
           }
@@ -246,44 +254,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.UI\\Shop.UI.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.UI/Shop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.UI\\Shop.UI.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.UI/Shop.UI.csproj",
         "projectName": "Shop.UI",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.UI\\Shop.UI.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.UI\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.UI/Shop.UI.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.UI/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.DataAccess\\Shop.DataAccess.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.DataAccess/Shop.DataAccess.csproj"
               },
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj"
               },
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj"
               },
-              "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj": {
-                "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services\\Shop.Services.csproj"
+              "/Users/kemalele/Projects/ShopProject/Shop.Services/Shop.Services.csproj": {
+                "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services/Shop.Services.csproj"
               }
             }
           }
@@ -325,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
