@@ -9,34 +9,34 @@ namespace Shop.Services
 {
     public class RegistrationService
     {
-        public void Register()
+        public void Register(IMessage messanger)
         {
             string email;
             string password;
             string phoneNumber;
             string address;
 
-            WriteLine("Введите e-mail: ");
+            messanger.Send("Введите e-mail: ");
             email = ReadLine() as string;
 
-            WriteLine("Введите пароль: ");
+            messanger.Send("Введите пароль: ");
             password = ReadLine() as string;
 
-            WriteLine("Введите номер телефона: ");
+            messanger.Send("Введите номер телефона: ");
             phoneNumber = ReadLine() as string;
 
-            WriteLine("Введите домашний адресс: ");
+            messanger.Send("Введите домашний адресс: ");
             address = ReadLine() as string;
 
-            if (Authenicate(email))
+            if (Authenicate(email, messanger))
             {
                 var User = EntityBuilder.CreateUser(phoneNumber, email, address, password);
-                var dbController = EntityBuilder.CreateDbController();
-                dbController.Insert(User);
+                var userRepo = EntityBuilder.CreateUserRepo();
+                userRepo.Add(User);
             }
         }
 
-        private bool Authenicate(string emailTo)
+        private bool Authenicate(string emailTo , IMessage messanger)
         {
 
             var emailFrom = "kemalele17@gmail.com";
@@ -47,18 +47,19 @@ namespace Shop.Services
             string enteredCode;
 
             var codeGenerator = new CodeGenerator();
-            var messageSender = new MessageSender();
+            var mailMessage = new MailMessage();
 
             generatedCode = codeGenerator.Generate();
-            messageSender.Send(generatedCode, messageSubject, emailFrom, emailTo, emailPassword);
+            mailMessage.Send(generatedCode, messageSubject, emailFrom, emailTo, emailPassword);
 
-            WriteLine("Введите полученный код:");
+            messanger.Send("Введите полученный код:");
             enteredCode = ReadLine() as string;
 
             if (generatedCode.Equals(enteredCode))
             {
                 return true;
             }
+
             else
             {
                 return false;
