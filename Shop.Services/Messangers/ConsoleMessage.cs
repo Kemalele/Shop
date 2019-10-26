@@ -1,10 +1,11 @@
 ﻿using System;
 namespace Shop.Services.Messangers
 {
-    public class ConsoleMessage
+    public class ConsoleMessage : IMessage
     {
-        public ConsoleMessage()
+       public void Send(string message)
         {
+            Console.WriteLine(message);
         }
     }
 }
