@@ -4,11 +4,11 @@ using System.Text;
 using System.Net.Mail;
 namespace Shop.Services
 {
-    public class MessageSender
+    public class MailMessage : IMessage
     {
         public void Send(string emailText, string emailSubject, string emailFrom, string emailTo, string emailPassword)
         {
-            MailMessage mail = new MailMessage();
+            System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
             SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
             mail.From = new MailAddress(emailFrom);
