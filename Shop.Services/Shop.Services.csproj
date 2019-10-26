@@ -14,4 +14,7 @@
     <ProjectReference Include="..\Shop.Services.Abstract\Shop.Services.Abstract.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Messangers\" />
+  </ItemGroup>
 </Project>
