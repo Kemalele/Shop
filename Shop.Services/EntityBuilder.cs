@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Shop.DataAccess;
+using Shop.DataAccess.Abstract;
 
 namespace Shop.Domain
 {
@@ -18,9 +19,9 @@ namespace Shop.Domain
             };
         }
 
-        public static DbController CreateDbController()
+        public static UserRepo CreateUserRepo()
         {
-            return new DbController();
+            return new UserRepo();
         }
     }
 }
