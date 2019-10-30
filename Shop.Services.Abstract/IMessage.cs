@@ -1,9 +1,8 @@
 ﻿using System;
 namespace Shop.Services
 {
-    public class IMessage
+    public interface IMessage
     {
-        public void Send() { }
-
+        public void Send(string message) { }
     }
 }

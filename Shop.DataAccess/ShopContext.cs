@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 namespace Shop.DataAccess
 {
@@ -15,7 +16,8 @@ namespace Shop.DataAccess
 
         public ShopContext()
         {
-            connectionString = "Server=A-305-01;Database=ShopDb;Trusted_Connection=True;";
+            //connectionString = "Server=A-305-01;Database=ShopDb;Trusted_Connection=True;";
+            connectionString = "Server=127.0.0.1;Port=5432;Database=testt;Integrated Security=true; ";
             Database.EnsureCreated();
         }
 
@@ -23,7 +25,8 @@ namespace Shop.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString);
+            //optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseNpgsql(connectionString);
            //optionsBuilder.UseInMemoryDatabase("ShopDb");
         }
     }

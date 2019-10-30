@@ -1,19 +1,19 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Shop.DataAccess;
-using Shop.DataAcess.Abstract;
-using Shop.Domain;
+using Shop.DataAccess.Abstract;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Shop.DataAccess;
+using Shop.Domain;
 
 namespace Shop
 {
     public class BaseRepo<T> : IDisposable,IRepo<T> where T:Entity, new()
     {
         private readonly DbSet<T> _table;
-        private readonly ShopContext _db;
-        protected ShopContext Context => _db;
+
+        protected ShopContext Context { get; }
 
         public BaseRepo(): this(new ShopContext())
         {
@@ -22,25 +22,25 @@ namespace Shop
 
         public BaseRepo(ShopContext shopContext)
         {
-            _db = shopContext;
-            _table = _db.Set<T>();
+            Context = shopContext;
+            _table = Context.Set<T>();
         }
 
         public void Dispose()
         {
-            _db.Dispose();
+            Context.Dispose();
         }
 
         public int Add(T entity)
         {
             _table.Add(entity);
-            return _db.SaveChanges();
+            return Context.SaveChanges();
         }
 
         public int Add(List<T> entities)
         {
             _table.AddRange(entities);
-            return _db.SaveChanges();
+            return Context.SaveChanges();
         }
 
 

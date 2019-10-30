@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {}
+    "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj": {
+    "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\Shop.Domain.csproj",
-        "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Domain\\obj\\",
+        "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/Shop.Domain.csproj",
+        "packagesPath": "/Users/kemalele/.nuget/packages/",
+        "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.Domain/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kemalele/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

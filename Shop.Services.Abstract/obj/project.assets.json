@@ -8,26 +8,28 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\БайрамовК\\.nuget\\packages\\": {}
+    "/Users/kemalele/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
+      "projectUniqueName": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj",
       "projectName": "Shop.Services.Abstract",
-      "projectPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\Shop.Services.Abstract.csproj",
-      "packagesPath": "C:\\Users\\БайрамовК\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\БайрамовК\\Source\\Repos\\Kemalele\\Shop\\Shop.Services.Abstract\\obj\\",
+      "projectPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/Shop.Services.Abstract.csproj",
+      "packagesPath": "/Users/kemalele/.nuget/packages/",
+      "outputPath": "/Users/kemalele/Projects/ShopProject/Shop.Services.Abstract/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\БайрамовК\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/kemalele/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

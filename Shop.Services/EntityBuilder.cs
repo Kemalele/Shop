@@ -23,5 +23,10 @@ namespace Shop.Domain
         {
             return new UserRepo();
         }
+
+        public static CategoryRepo CreateCategoryRepo()
+        {
+            return new CategoryRepo();
+        }
     }
 }

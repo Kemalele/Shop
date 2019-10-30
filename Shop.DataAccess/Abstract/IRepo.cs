@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Shop.DataAcess.Abstract
+using System.Linq.Expressions;
+
+namespace Shop.DataAccess.Abstract
 {
     public interface IRepo<T>
     {
@@ -8,7 +10,5 @@ namespace Shop.DataAcess.Abstract
         int Add(List<T> entities);
         List<T> GetAll();
         List<T> GetSome(Expression<Func<T, bool>> where);
-        List<T> GetAll<TSortField>(Expression<Func<T, TSortField>> orderBy,
-        bool ascending);
     }
 }
